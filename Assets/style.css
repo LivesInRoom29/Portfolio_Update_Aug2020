@@ -1,0 +1,54 @@
+/* Fonts */
+/* Averi Serif Libre - for Headings */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+p {
+  font-size: 1rem;
+}
+
+h3 {
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+/* Determines the height of the parallax containers  */
+div.parallax-container {
+  height: 300px;
+}
+
+/* Top of the page - my name with the lightning behind it */
+div.top-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+div.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* For the about section to style the pacing of the elements*/
+div.about {
+  margin-bottom: 0;
+}
+
+/* Profile pic */
+img.profile {
+  margin-top: 10%;
+}
+
+p.bottom {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+p.top {
+  margin-top: 0;
+}
+
+
+
+
+
