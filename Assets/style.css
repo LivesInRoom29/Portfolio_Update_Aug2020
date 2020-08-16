@@ -2,17 +2,34 @@
 /* Averi Serif Libre - for Headings */
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-p {
-  font-size: 1rem;
+h1 {
+  font-size: 7vw;
 }
 
 h3 {
   font-family: 'Averia Serif Libre', cursive;
+  font-size: 4.5vw;
+}
+
+h4 {
+  font-size: 4vw;
+}
+
+p {
+  font-size: 2vw;
+}
+
+h3.subheading {
+  color: rgb(19, 61, 19);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.612);
+  padding: 5px;
+  margin-top: 50px;
 }
 
 /* Determines the height of the parallax containers  */
 div.parallax-container {
-  height: 300px;
+  height: 40vw;
 }
 
 /* Top of the page - my name with the lightning behind it */
@@ -27,6 +44,12 @@ div.centered {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+/* For the in-page "links" */
+a#about, a#projects, a#contact {
+  color: black;
 }
 
 /* For the about section to style the pacing of the elements*/
@@ -39,7 +62,7 @@ img.profile {
   margin-top: 10%;
 }
 
-p.bottom {
+p.top-para {
   margin-bottom: 5px;
   margin-top: 0;
 }
@@ -47,6 +70,38 @@ p.bottom {
 p.top {
   margin-top: 0;
 }
+
+/* PROJECTS SECTION */
+/* To hide the template tile */
+div.hiddenTemplate {
+  display: none;
+}
+
+i.material-icons {
+  color: black;
+}
+
+a.deployed, .repo {
+  font-size: 16px;
+}
+
+/* Contact links */
+div.contacts-container {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+a.contact-link {
+  font-size: 2vw;
+  color: rgb(19, 61, 19);
+  padding: 5px;
+  margin: 10px;
+}
+
+
 
 
 
