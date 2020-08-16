@@ -2,6 +2,10 @@
 /* Averi Serif Libre - for Headings */
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+nav {
+  background-color: rgba(81, 155, 230, 0.306)
+}
+
 h1 {
   font-size: 7vw;
 }
@@ -15,9 +19,19 @@ h4 {
   font-size: 4vw;
 }
 
+h6 {
+  text-align: center;
+  color: black;
+}
+
 p {
   font-size: 2vw;
 }
+
+a.brand-logo, nav ul a {
+  color: black;
+}
+
 
 h3.subheading {
   color: rgb(19, 61, 19);
@@ -57,6 +71,11 @@ div.about {
   margin-bottom: 0;
 }
 
+div.about-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 /* Profile pic */
 img.profile {
   margin-top: 10%;
@@ -90,15 +109,27 @@ div.contacts-container {
   margin: auto;
   width: 50%;
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 70px;
+  margin-top: 70px;
 }
 
 a.contact-link {
-  font-size: 2vw;
+  font-size: 3vw;
   color: rgb(19, 61, 19);
   padding: 5px;
   margin: 10px;
+}
+
+a.middle {
+  margin: 50px;
+}
+
+/* Footer */
+
+footer.page-footer {
+  color: black;
+  background-color: rgba(81, 155, 230, 0.306);
+  padding-top: 0px;
 }
 
 
