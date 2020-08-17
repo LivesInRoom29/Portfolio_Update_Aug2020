@@ -20,7 +20,7 @@ $(document).ready(function() {
 
             // Insert the correct image, the project title, the links and the description
             $clone.find('img.card-img').attr('src', objKey.image).attr('alt', `${objKey.name} gif`);
-            $clone.find('span.title').html(`${objKey.name}<i class="material-icons right">more_vert</i>`);
+            $clone.find('span.title').html(`<i class="material-icons right">more_vert</i>${objKey.name}`);
             $clone.find('a.deployed').attr('href', objKey.deployed);
             $clone.find('a.repo').attr('href', objKey.repo);
             $clone.find('p.description').text(objKey.description);

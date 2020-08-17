@@ -72,8 +72,9 @@ div.about {
 }
 
 div.about-container {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* Profile pic */
@@ -96,12 +97,31 @@ div.hiddenTemplate {
   display: none;
 }
 
+section.portfolio-container {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+div.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+span.card-title {
+  font-size: 2vw;
+}
+
 i.material-icons {
   color: black;
 }
 
 a.deployed, .repo {
-  font-size: 16px;
+  font-size: 1.5vw;
+}
+
+p.description, p.tech-used {
+  font-size: 1.7vw;
 }
 
 /* Contact links */
@@ -121,7 +141,7 @@ a.contact-link {
 }
 
 a.middle {
-  margin: 50px;
+  margin: 5vw;
 }
 
 /* Footer */
