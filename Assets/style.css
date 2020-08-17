@@ -20,6 +20,7 @@ h4 {
 }
 
 h6 {
+  font-size: 2.3vw;
   text-align: center;
   color: black;
 }
@@ -108,7 +109,7 @@ div.portfolio-card {
   justify-content: space-between;
 }
 
-span.card-title {
+a.deployed, a.repo {
   font-size: 2vw;
 }
 
@@ -116,9 +117,9 @@ i.material-icons {
   color: black;
 }
 
-a.deployed, .repo {
-  font-size: 1.5vw;
-}
+/* a.deployed, .repo {
+  font-size: 1.7vw;
+} */
 
 p.description, p.tech-used {
   font-size: 1.7vw;
@@ -152,7 +153,34 @@ footer.page-footer {
   padding-top: 0px;
 }
 
+/* Mecia queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Increase font size at this screen size */
+  p.description, p.tech-used {
+    font-size: 3vw;
+  }
 
+  a.deployed, a.repo {
+    font-size: 2.7vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* decrease font size at this screen size */
+  p.description, p.tech-used, a.deployed, a.repo {
+    font-size: 1.5vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* decrease font size at this screen size */
+  p.description, p.tech-used, a.deployed, a.repo {
+    font-size: 1.2vw;
+  }
+}
 
 
 
