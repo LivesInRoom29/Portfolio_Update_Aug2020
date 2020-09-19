@@ -1,4 +1,12 @@
 const portfolioMaterials = {
+    burgerBar: {
+        name: "Virtual Burger Bar",
+        repo: "https://github.com/LivesInRoom29/Log_That_Burger",
+        deployed: "https://still-shelf-27368.herokuapp.com/",
+        image: "./Assets/Img/BurgerBar_Demo.gif",
+        description: "Live vicariously through your fingers! A calorie free, mess free way to dream up your favorite burger combinations and eat them all you want!",
+        techUsed: "Node.js, Express, Handlebars, MySQL, HTML, CSS, Materialize, Javascirpt, jQuery"
+    },
     project1: {
         name: "High Card Picks Dinner",
         repo: "https://github.com/LivesInRoom29/high-card-picks-dinner",
@@ -23,12 +31,12 @@ const portfolioMaterials = {
         description: "A daily calendar that provides a way for the user to plan their work day; saves calendar input in local storage.",
         techUsed: "HTML, JavaScript, jQuery, Moment.js",
     },
-    codeQuiz: {
-        name: "Code Quiz",
-        repo: "https://github.com/LivesInRoom29/Code_Quiz",
-        deployed: "https://livesinroom29.github.io/Code_Quiz",
-        image: "./Assets/Img/codeQuiz.gif",
-        description: "A timed, multiple choice coding quiz that stores and displays high scores.",
-        techUsed: "HTML, CSS, JavaScript - setInterval(), clearInterval(), saving to local storage and working with JSON objects to store and display saved data.",
-    },
+    // codeQuiz: {
+    //     name: "Code Quiz",
+    //     repo: "https://github.com/LivesInRoom29/Code_Quiz",
+    //     deployed: "https://livesinroom29.github.io/Code_Quiz",
+    //     image: "./Assets/Img/codeQuiz.gif",
+    //     description: "A timed, multiple choice coding quiz that stores and displays high scores.",
+    //     techUsed: "HTML, CSS, JavaScript - setInterval(), clearInterval(), saving to local storage and working with JSON objects to store and display saved data.",
+    // },
 }
