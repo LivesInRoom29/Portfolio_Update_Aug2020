@@ -1,4 +1,4 @@
-const portfolioMaterials = {
+const groupProjects = {
     project2: {
         name: "Ascent Sobriety Tracker",
         repo: "https://github.com/LivesInRoom29/Acent-Sobriety-Tracker",
@@ -15,6 +15,17 @@ const portfolioMaterials = {
         description: "A relationship saver! This app helps couples, friends, and roommates fairly choose who picks dinner, and find quality dinner choices.",
         techUsed: "HTML, CSS, Materialize, JavaScript, jQuery, Moment.js, Animate.CSS, Chart.js, and multiple API calls",
     },
+    project3: {
+        name: "Coming soon",
+        repo: "#",
+        deployed: "#",
+        image: "http://placeimg.com/640/640/tech",
+        description: "Coming Soon!",
+        techUsed: "...",
+    }
+}
+
+const portfolioMaterials = {
     burgerBar: {
         name: "Virtual Burger Bar",
         repo: "https://github.com/LivesInRoom29/Log_That_Burger",
@@ -22,6 +33,14 @@ const portfolioMaterials = {
         image: "./Assets/Img/BurgerBar_Demo.gif",
         description: "Live vicariously through your fingers! A calorie free, mess free way to dream up your favorite burger combinations and eat them all you want!",
         techUsed: "Node.js, Express, Handlebars, MySQL, HTML, CSS, Materialize, Javascirpt, jQuery"
+    },
+    employeeTracker: {
+        name: "Employee Tracker",
+        repo: "https://github.com/LivesInRoom29/Employee_Tracker",
+        deployed: "#",
+        image: "./Assets/Img/employee_tracker_demo.gif",
+        description: "A command-line application designed to allow a user to view and manage departments, roles, and employees in a company. See the video linked in the GitHub repo to see a full demonstration of its functionality.",
+        techUsed: "Node.js, Inquirer, MySQL"
     },
     weatherDashboard: {
         name: "Weather Dashboard",
