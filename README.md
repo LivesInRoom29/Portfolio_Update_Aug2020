@@ -3,7 +3,7 @@
 
 HW 7 for the UNH Coding Bootcamp. It is an updated portfolio page with my most recent projects.
 
-[Link to Deployed Portfolio](https://livesinroom29.github.io/Portfolio_Update_Aug2020/)
+[Link to Deployed Portfolio](https://livesinroom29.github.io/Portfolio_Update_Oct2020/)
 
 ![portfolio gif](https://user-images.githubusercontent.com/61219066/90357701-e2183000-e021-11ea-8432-27a7199e9d65.gif)
 
