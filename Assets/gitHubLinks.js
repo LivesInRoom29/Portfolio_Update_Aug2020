@@ -1,11 +1,11 @@
 const portfolioMaterials = {
-    burgerBar: {
-        name: "Virtual Burger Bar",
-        repo: "https://github.com/LivesInRoom29/Log_That_Burger",
-        deployed: "https://still-shelf-27368.herokuapp.com/",
-        image: "./Assets/Img/BurgerBar_Demo.gif",
-        description: "Live vicariously through your fingers! A calorie free, mess free way to dream up your favorite burger combinations and eat them all you want!",
-        techUsed: "Node.js, Express, Handlebars, MySQL, HTML, CSS, Materialize, Javascirpt, jQuery"
+    project2: {
+        name: "Ascent Sobriety Tracker",
+        repo: "https://github.com/LivesInRoom29/Acent-Sobriety-Tracker",
+        deployed: "https://ascent-sobriety.herokuapp.com/",
+        image: "./Assets/Img/counterPage.jpg",
+        description: "A sobriety tool that helps members track their continuous and discontinuous lengths of sobriety as well as their daily mood and thoughts.",
+        techUsed: "Node.js, Express, Handlebars, MySQL, Sequelize, Passport, ApexCharts, HTML, CSS, Bootstrap, Javascirpt, jQuery"
     },
     project1: {
         name: "High Card Picks Dinner",
@@ -14,6 +14,14 @@ const portfolioMaterials = {
         image: "./Assets/Img/highCard.gif",
         description: "A relationship saver! This app helps couples, friends, and roommates fairly choose who picks dinner, and find quality dinner choices.",
         techUsed: "HTML, CSS, Materialize, JavaScript, jQuery, Moment.js, Animate.CSS, Chart.js, and multiple API calls",
+    },
+    burgerBar: {
+        name: "Virtual Burger Bar",
+        repo: "https://github.com/LivesInRoom29/Log_That_Burger",
+        deployed: "https://still-shelf-27368.herokuapp.com/",
+        image: "./Assets/Img/BurgerBar_Demo.gif",
+        description: "Live vicariously through your fingers! A calorie free, mess free way to dream up your favorite burger combinations and eat them all you want!",
+        techUsed: "Node.js, Express, Handlebars, MySQL, HTML, CSS, Materialize, Javascirpt, jQuery"
     },
     weatherDashboard: {
         name: "Weather Dashboard",
