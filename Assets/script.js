@@ -26,8 +26,17 @@ $(document).ready(function() {
             // Insert the correct image, the project title, the links and the description
             $clone.find('img.card-img').attr('src', objKey.image).attr('alt', `${objKey.name} gif`);
             $clone.find('span.title').html(`<i class="material-icons right">more_vert</i>${objKey.name}`);
-            $clone.find('a.deployed').attr('href', objKey.deployed).attr('target', '_blank');
-            $clone.find('a.repo').attr('href', objKey.repo).attr('target', '_blank');
+            // If a deployed link or repo exists, populate that with the data from the obj, otherwise make it blank
+            if (objKey.deployed) {
+                $clone.find('a.deployed').attr('href', objKey.deployed).attr('target', '_blank');
+            } else {
+                $clone.find('a.deployed').attr('href', "").text("");
+            }
+            if (objKey.repo) {
+                $clone.find('a.repo').attr('href', objKey.repo).attr('target', '_blank');
+            } else {
+                $clone.find('a.repo').attr('href', "").text("");
+            }
             $clone.find('p.description').text(objKey.description);
             $clone.find('p.tech-used').text(`Tech Used: ${objKey.techUsed}`);
 
@@ -52,7 +61,13 @@ $(document).ready(function() {
             // Insert the correct image, the project title, the links and the description
             $clone.find('img.card-img').attr('src', objKey.image).attr('alt', `${objKey.name} gif`);
             $clone.find('span.title').html(`<i class="material-icons right">more_vert</i>${objKey.name}`);
-            $clone.find('a.deployed').attr('href', objKey.deployed).attr('target', '_blank');
+            console.log("deployed: ", objKey.deployed)
+            // If a deployed link exists, populate that with the data from the obj, otherwise make it blank
+            if (objKey.deployed) {
+                $clone.find('a.deployed').attr('href', objKey.deployed).attr('target', '_blank');
+            } else {
+                $clone.find('a.deployed').attr('href', "").text("");
+            }
             $clone.find('a.repo').attr('href', objKey.repo).attr('target', '_blank');
             $clone.find('p.description').text(objKey.description);
             $clone.find('p.tech-used').text(`Tech Used: ${objKey.techUsed}`);

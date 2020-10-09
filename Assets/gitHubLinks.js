@@ -17,8 +17,8 @@ const groupProjects = {
     },
     project3: {
         name: "Coming soon",
-        repo: "#",
-        deployed: "#",
+        repo: "",
+        deployed: "",
         image: "http://placeimg.com/640/640/tech",
         description: "Coming Soon!",
         techUsed: "...",
@@ -37,7 +37,7 @@ const portfolioMaterials = {
     employeeTracker: {
         name: "Employee Tracker",
         repo: "https://github.com/LivesInRoom29/Employee_Tracker",
-        deployed: "#",
+        deployed: "",
         image: "./Assets/Img/employee_tracker_demo.gif",
         description: "A command-line application designed to allow a user to view and manage departments, roles, and employees in a company. See the video linked in the GitHub repo to see a full demonstration of its functionality.",
         techUsed: "Node.js, Inquirer, MySQL"
